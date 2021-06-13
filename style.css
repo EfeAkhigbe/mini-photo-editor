@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fc95c5;
+}
+
+:root {
+  --frame: #0075ff;
+  --spacing: 5px;
+  --blur: 0px;
+}
+
+img {
+  padding: var(--spacing);
+  background-color: var(--frame);
+  filter: blur(var(--blur));
+  margin-top: 50px;
+  max-width: 22rem;
+  max-height: 20rem;
+}
+
+.highlight {
+  color: var(--frame);
+}
